@@ -1,8 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react'
 
-export default function Navbar() {
+export default function NavHome() {
   return (
-    <nav class="navbar navbar-expand-lg bg-light">
+    <div>
+      <div>
+      <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Calorie-Heist</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -13,7 +15,6 @@ export default function Navbar() {
         <a class="nav-link active" aria-current="page" href="#">Home</a>
         <a class="nav-link active" href="#">Catalog</a>
         <a class="nav-link active" href="#">BMI-Calculator</a>
-        <a class="nav-link active" href="#">Account-Services</a>
       </div>
     </div>
   </div>
@@ -23,11 +24,10 @@ export default function Navbar() {
 </div>
   <nav class="navbar bg-light">
   <div className="container">
-  <form class="container-fluid justify-content-start">
-    <button class="btn btn-outline-success me-2" type="button">Logout</button>
-  </form>
   </div>
 </nav>
 </nav>
+    </div>
+    </div>
   )
 }
